@@ -1,0 +1,19 @@
+/* Services.css */
+
+.services-container {
+  max-width: calc(100% - 100px); /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 50px; /* Add left and right padding of 50px */
+  text-align: center; /* Center-align text content */
+}
+
+/* Style for individual service sections */
+.service {
+  margin-bottom: 30px; /* Add spacing between service sections */
+  text-align: left; /* Reset text alignment for service sections */
+}
+
+/* Style for headings (h2) in service sections */
+.service h2 {
+  color: #333; /* Text color for headings */
+}

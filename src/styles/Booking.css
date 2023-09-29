@@ -1,0 +1,21 @@
+.booking-image {
+  /* Style the image at the top */
+  max-width: 100%;
+  height: auto;
+}
+
+.booking-content {
+  /* Style the container for text and booking form */
+  display: flex;
+  align-items: center;
+}
+
+.booking-text {
+  /* Style the text container on the left side */
+  flex: 1; /* Take up available space */
+}
+
+.booking-form {
+  /* Style the booking form container on the right side */
+  flex: 1; /* Take up available space */
+}

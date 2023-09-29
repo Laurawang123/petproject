@@ -1,0 +1,42 @@
+/* Style for the main footer container */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style for the contact information section */
+.footer-info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style for the contact information paragraphs */
+.footer-info p {
+  margin: 5px 0;
+}
+
+/* Style for heading in contact information */
+.footer-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Style for the links in the footer  */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style for pet-themed background */
+.footer-dog-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 0;
+}

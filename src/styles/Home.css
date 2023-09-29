@@ -1,0 +1,100 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+  display: flex; /* Add flexbox to center the carousel horizontally and vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.header .carousel .carousel-slider {
+  width: 100%; /* Make the carousel slider take up the full width of the header */
+  height: 100%; /* Make the carousel slider take up the full height of the header */
+  display: flex;
+}
+.header h1 {
+  font-size: 48px;
+
+  color: #ff5733;
+  margin: 0;
+}
+/* Style for the header content */
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1; /* Place the content above the images */
+}
+
+.header .second-button {
+  background-color: #ff5733;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.second-button:hover {
+  background-color: #ff784e;
+} /* Darker shade on hover */
+
+.about-story {
+  background-color: dimgrey; /* Orange background color */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.about-story-content {
+  display: flex;
+  max-width: 1000px; /* Adjust to your preferred maximum width */
+}
+
+.about-story-text {
+  flex: 1; /* Take up 50% of the available space */
+  color: white; /* Text color */
+}
+
+.about-story-image {
+  flex: 1; /* Take up 50% of the available space */
+}
+
+.about-story-image img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain aspect ratio */
+}
+.about-services {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-services-content {
+  display: flex;
+  max-width: 1000px;
+}
+
+.about-services-text {
+  flex: 1;
+  color: white;
+  order: 2; /* Set the order to 2 to move it to the left */
+}
+
+.about-services-image {
+  flex: 1;
+  order: 1; /* Set the order to 1 to move it to the right */
+}
+
+.about-services-image img {
+  max-width: 100%;
+  height: auto;
+}

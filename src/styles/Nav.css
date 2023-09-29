@@ -1,0 +1,32 @@
+/* Styles for the main nav container */
+.nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+/* Styles for the leftNav section */
+.leftNav img {
+  max-width: 50px; /* Adjust the logo size as needed */
+}
+
+/* Styles for the rightNav section */
+.rightNav {
+  display: flex;
+  gap: 20px;
+}
+
+/* Styles for the links in the rightNav section */
+.rightNav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.rightNav a:hover {
+  color: #ff5733; /* Change the color on hover as desired */
+}
